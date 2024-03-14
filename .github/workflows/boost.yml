@@ -30,7 +30,7 @@ jobs:
           registry_module: boostsecurityio/checkov
 
       - name: BoostSecurity Supply Chain Inventory
-        uses: boostsecurityio/boostsec-scanner-github@v5
+        uses: boostsecurityio/boostsec-scanner-github@v4
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN }}
           registry_url: https://github.com/boostsecurityio/dev-registry.git
